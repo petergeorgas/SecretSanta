@@ -6,5 +6,7 @@ Requirements.txt lists the only dependency for this project: Twilio. Twilio requ
 
 # Names.txt Formatting
 Names.txt follows the following format:
+
 Name - +18009999
+
 (Name) - +(Country Code)(Number)
