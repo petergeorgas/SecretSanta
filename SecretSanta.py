@@ -6,9 +6,6 @@ import json
 from twilio.rest import Client
 
 
-##names = ["Peter", "Nathan", "Gehrig", "Branden", "Alec", "Jack", "Ryan", "Aaron"]
-##person = ["Peter", "Nathan", "Gehrig", "Branden", "Alec", "Jack", "Ryan", "Aaron"]
-
 names = []
 
 ## Try to open Names.txt
@@ -73,4 +70,4 @@ while(len(names) > 0 and len(person) > 0):
     else: ## If the names match
         continue ## Try again
     
-print("Drawing completed successfully! There were a total of: " + num_pair + " pairings!")
+print("Drawing completed successfully! There were a total of: " + str(num_pair) + " pairings!")
